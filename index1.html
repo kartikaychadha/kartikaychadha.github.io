@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom CSS Utility Demo</title>
+  <link rel="stylesheet" href="Assets/CSS/default.css"> <!-- Link to your custom CSS file -->
+</head>
+<body>
+
+  <!-- Container Example -->
+  <div class="container p-3">
+    <h1 class="text-center">Custom CSS Utility Classes</h1>
+    <p class="text-left">A demo page to showcase custom CSS utility classes for responsive layouts.</p>
+
+    <!-- Grid System: Rows and Columns -->
+    <div class="row">
+      <div class="col-12 col-md-8 p-3 border rounded">
+        <h2>Grid Layout</h2>
+        <p>This is an 8-column wide section in medium and larger screens, and full width on small screens.</p>
+      </div>
+      <div class="col-12 col-md-4 p-3 m-2 border rounded text-center">
+        <h2>Sidebar</h2>
+        <p>4-column wide on medium screens and above. This is a responsive sidebar section.</p>
+      </div>
+    </div>
+
+    <!-- Spacing Classes -->
+    <div class="row mt-5">
+      <div class="col-6 p-5 border">
+        <p class="m-1">Padding applied with <code>.p-5</code> and margin with <code>.m-1</code>.</p>
+      </div>
+      <div class="col-6 m-2 p-3 border">
+        <p class="p-2">Padding and margin classes allow easy adjustment of spacing between and inside elements.</p>
+      </div>
+    </div>
+
+    <!-- Text Alignment and Flex Utilities -->
+    <div class="row my-5">
+      <div class="col-12 text-center p-3 border">
+        <h3 class="text-right">Text Alignment</h3>
+        <p>This paragraph is centered using <code>.text-center</code> and the heading is right-aligned with <code>.text-right</code>.</p>
+      </div>
+    </div>
+
+    <!-- Flexbox Utilities -->
+    <div class="row d-flex justify-content-around align-items-center border p-3 my-4">
+      <div class="col-4 d-flex justify-content-center align-items-center p-2 border rounded">
+        <p class="text-center">Centered Flex Item 1</p>
+      </div>
+      <div class="col-4 d-flex justify-content-center align-items-center p-2 border rounded">
+        <p class="text-center">Centered Flex Item 2</p>
+      </div>
+    </div>
+
+    <!-- Display Utility Classes -->
+    <div class="row my-4">
+      <div class="col-6 d-none d-md-block p-3 border">
+        <p>This element is hidden on small screens but visible on medium screens and above using <code>.d-none .d-md-block</code>.</p>
+      </div>
+      <div class="col-6 d-flex d-md-none p-3 border">
+        <p>This element is visible only on small screens using <code>.d-flex .d-md-none</code>.</p>
+      </div>
+    </div>
+
+    <!-- Border and Shape Classes -->
+    <div class="row my-4">
+      <div class="col-4 p-3 border rounded">
+        <p>Box with rounded corners using <code>.rounded</code>.</p>
+      </div>
+      <div class="col-4 p-3 border rounded-circle d-flex justify-content-center align-items-center">
+        <p>Circle shape using <code>.rounded-circle</code>.</p>
+      </div>
+    </div>
+
+  </div> <!-- End of container -->
+
+</body>
+</html>
