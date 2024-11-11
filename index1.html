@@ -4,22 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Custom CSS Utility Demo</title>
-  <link rel="stylesheet" href="Assets/CSS/default.css"> <!-- Link to your custom CSS file -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 border">
+      This is column 1
+      </div>
+      <div class="col-lg-6 border">
+        This is column 2
+        </div>
+    </div>
+  </div>
   <!-- Container Example -->
   <div class="container p-3">
     <h1 class="text-center">Custom CSS Utility Classes</h1>
     <p class="text-left">A demo page to showcase custom CSS utility classes for responsive layouts.</p>
 
     <!-- Grid System: Rows and Columns -->
-    <div class="row">
-      <div class="col-12 col-md-8 p-3 border rounded">
+    <div class="row g-5">
+      <div class="col-12 col-md-8 p-4 border rounded">
         <h2>Grid Layout</h2>
         <p>This is an 8-column wide section in medium and larger screens, and full width on small screens.</p>
       </div>
-      <div class="col-12 col-md-4 p-3 m-2 border rounded text-center">
+      <div class="col-12 col-md-4 p-4 border rounded text-center">
         <h2>Sidebar</h2>
         <p>4-column wide on medium screens and above. This is a responsive sidebar section.</p>
       </div>
