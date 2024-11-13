@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Example</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar with Dropdown -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">MyWebsite</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">Graphic Design</a></li>
+              <li><a class="dropdown-item" href="#">SEO Services</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Consulting</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+  <!-- Hero Section -->
+  <section class="py-5 bg-primary text-white text-center">
+    <div class="container">
+      <h1 class="display-4">Welcome to MyWebsite</h1>
+      <p class="lead">This is a simple Bootstrap example page.</p>
+      <a href="#" class="btn btn-light">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Card Section -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 1">
+            <div class="card-body">
+              <h5 class="card-title">Card Title 1</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Card Title 2</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Image 3">
+            <div class="card-body">
+              <h5 class="card-title">Card Title 3</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2024 MyWebsite. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JavaScript and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

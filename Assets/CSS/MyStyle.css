@@ -7,3 +7,29 @@ h1{ text-align: center;}
 .font-color-pink{
     color: pink;
 }
+
+.font-size-10{
+    font-size: 15rem;
+}
+/* This is comment
+multiple line */
+.font-roboto{
+    font-family: "Handlee", Times, cursive;
+    text-indent: 10px !important;
+    text-align: center;
+    color: green;
+}
+
+a:link{
+    color: purple;
+}
+a:hover{
+    color: yellow;
+}
+
+@media (max-width: 767px) {
+    body {
+      background-color: blue;
+    }
+  }
+  
