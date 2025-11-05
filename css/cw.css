@@ -1,3 +1,22 @@
+:root {
+    --primary-red: #dc3545;
+    --just-red: rgb(84, 8, 8);
+  }
+  
+a:hover{
+    color:rgb(13, 132, 237);
+    background-color: rgba(21, 248, 5);
+}
+
+a{
+    color:var(--just-red);
+    text-decoration: none;
+    background-color: rgba(224, 248, 5, 0.2);
+    padding: 20px 10px 20px 10px;
+    margin-left: 50px;  
+}
+/* This is a comment */ 
+
 #heading1{
     color: rgb(75, 218, 75);
     background-color: aquamarine;
@@ -17,11 +36,18 @@ body{
     background-position: right top;
     background-attachment: fixed;
     color:rgb(235, 109, 19);
+  
 }
 
 h1{
     font-size: 3.8rem;
+    font-style: italic;
+    font-weight:900;
+   
 }
+
+
+
 
 .text-para{
     font-size: 1.8rem;
@@ -32,3 +58,11 @@ h1{
     text-transform: capitalize;
     white-space: nowrap;
 }
+
+@media (max-width: 576px)  {
+    body {
+      background-color: lightblue;
+    }
+    
+  }
+  
